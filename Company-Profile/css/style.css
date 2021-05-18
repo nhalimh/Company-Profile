@@ -1,0 +1,144 @@
+* {
+	font-family:  sans-serif;
+	margin :0;
+	padding :0;
+} 
+a {
+	color :inherit;
+	text-decoration: none;
+}
+.sosmed {
+	background-color: #1abbc0;
+	padding: 15px;
+}
+.sosmed ul li {
+	color :  #145153;
+	display: inline-block;
+	margin-right: 10px;
+}
+.container {
+	border:1px;
+	margin:0 auto;
+	width: 80%;
+}
+.container :after{
+	clear : both;
+	content :' ';
+	display: block;
+}
+
+header h1 {
+	color : #145153;
+	float: left;
+	font-family: cursive;
+	padding: 15px 25px;
+	text-align: center;
+}
+header ul {
+	float : right;
+	font-weight: bold;
+}
+header ul li{
+	display: inline-block;
+}
+header ul li a{
+	display: inline-block;
+	padding: 25px 20px;
+}
+header ul li a:hover {
+	background-color:#1abbc0;
+	color :  #fcfcfc ;
+}
+.banner {
+	background-image: url('../img/banner.jpg');
+	color :    #286273 ;
+	height: 650px;
+}
+section h3 {
+	text-align: center;
+	padding:20px 0;
+	color:#145153;
+	margin-bottom: 20px;
+}
+.about p {
+	font-family: sans-serif;
+	text-align: justify;
+	word-spacing: 2px;
+	line-height: 30px;
+	color:#286273  ;
+}
+.backabout {
+	background-image: url('../img/about.jpg');
+	height: 550px;
+	padding: 40px 0;
+}
+.visi ul {
+	font-family: sans-serif;
+	text-align: justify;
+	word-spacing: 3px;
+	line-height: 20px;
+	color:#286273  ;
+}
+.backproduct {
+	background-image: url('../img/product.jpg');
+	height: 550px;
+	padding: 40px 0;
+}
+.product p {
+	font-family: sans-serif;
+	text-align: justify;
+	word-spacing: 1px;
+	line-height: 20px;
+	color:#286273;
+	padding: 340px 0;
+	object-position: center;
+	margin-left: 250px;
+	padding-bottom: 0;
+}
+.backcontact {
+	background-image: url('../img/about.jpg');
+	height: 550px;
+	padding: 40px 0;
+}
+.cta ul li{
+	display: inline-block;
+	display: center;
+	margin-right: 10px;
+	margin-right: 50px;
+	padding-left: 100px;
+}
+footer {
+	padding : 30px 0;
+	background-color:#286273;
+	color : #fff ;
+	text-align: center;
+	font-weight: bold;
+}
+@media screen and (max-width: 768px){
+	.container {
+		width:90%;
+	}
+	header h1 {
+		text-align: center;
+		float:none;
+	}
+	header ul {
+		text-align: center;
+		float:none;
+	}
+	.backproduct{
+		background-size:cover;
+		background-position:center;
+		background-repeat:no-repeat;
+	}
+	.backabout{
+		background-size:cover;
+		background-position:center;
+		background-repeat:no-repeat;
+	}
+	.backcontact{
+		background-size:cover;
+		background-position:center;
+		background-repeat:no-repeat;
+	}
+}
